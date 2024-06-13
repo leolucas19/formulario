@@ -23,7 +23,7 @@ function finalizar() {
     }
 
     if (!nome || !sobrenome || !data || !genero || !civil || !tel || !escolaridade || !cargo || !obs) {
-        alert("Por favor preencha todos os espaços");
+        alert("Por favor preencha todos os espaços !");
     } else {
         alert("Enviado com sucesso!!");
 

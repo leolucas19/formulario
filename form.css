@@ -27,11 +27,11 @@ h2 {
 }
 
 .conteiner {
-    
+    border-radius: 10px;
     width: 80%;
     margin: 20px auto;
     background-color: rgb(250, 250, 250);
-    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.13);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.13);
     color: rgba(0, 0, 0, 0.74);
 }
 
