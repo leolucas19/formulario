@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario</h1>
+    </header>
+    <section>
+        <section class="conteiner">
+            <section class="conteiner1">
+                <h2>Dados Pessoais</h2>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                <br><br>
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome">
+                <br><br>
+                    <label for="data">Data de Nascimento:</label>
+                    <input type="date" name="data" id="data">
+                <br><br>
+                    <label for="genero">Genero:</label>
+                    <input type="radio" name="genero" id="homem" checked>
+                    <label for="homem">Homem</label>
+                    <input type="radio" name="genero" id="mulher">
+                    <label for="mulher">Mulher</label>
+                <br><br>
+                    <label for="civil">Estado Civil:</label>
+                    <input type="radio" name="civil" id="solteiro" checked>
+                    <label for="solteiro">Solteiro</label>
+                    <input type="radio" name="civil" id="casado">
+                    <label for="casado">Casado</label>
+                    <br><br>
+                    <label for="tel">Contato:</label>
+                    <input type="tel" name="tel" id="tel" placeholder="Digite seu numero">
+
+                    
+           </section>
+                <section class="conteiner2">
+                    <h2>Dados profissionais</h2>
+                        <label for="escola">Escolaridade:</label>
+                            <select name="Escolaridade" id="escola">
+                                <option value="em"> Ensino Médio</option>
+                                <option value="nt">Nivel Técnico</option>
+                                <option value="ns">Nivel Superior</option>
+                            </select>
+                            <br><br>
+                                <label for="" class="cargo"> Área de Atuação:
+                                    <input type="radio" name="cargo" value="1" checked class="cargo"> Desenvolvedor
+                                    <input type="radio" name="cargo" value="2" class="cargo"> Estagio
+                                    <input type="radio" name="cargo" value="3" class="cargo"> Analista
+                                    <input type="radio" name="cargo" value="4" class="cargo"> Infraestrutura
+                                </label>
+                                <br><br>
+                            <p>Observações: <br> <textarea name="obs" id="obs" cols="30" rows="10"></textarea></p><br>
+                                <button type="button" onclick="finalizar()" id="fin">Finalizar</button>
+                                <button onclick="cancelar()" id="cancel">Cancelar</button>
+            </section>   
+        </section>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+    <script src="form.js"></script>
+</html>
