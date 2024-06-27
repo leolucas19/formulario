@@ -48,7 +48,7 @@ function cancelar() {
         document.querySelector("input[name='genero']:checked").checked = false;
         document.querySelector("input[name='civil']:checked").checked = false;
         document.getElementById("tel").value = "";
-        document.getElementById("escola").value = "";
+        document.getElementById("escola").value ="";
         document.querySelector("input[name='cargo']:checked").checked = false;
         document.getElementById("obs").value = "";
     }
